@@ -4,6 +4,8 @@
 #Then it will fetch a meaning of that word for the user.
 
 
+#----------------------------------------  CODE STARTS HERE  -----------------------------------------------------------
+
 d1 = {"MUTABLE": "anything that can be changed",
       "IMMUTABLE": "That can\'t be changed",
       "FRIVOLOUS": "anything that is not so important",
@@ -16,3 +18,5 @@ i = input("Enter the word from the above list whose meaning you want to know: ")
 j = i.upper()
 
 print(j, "means", "\"", d1[j],"\"")
+
+#----------------------------------------  CODE ENDS HERE  -----------------------------------------------------------
