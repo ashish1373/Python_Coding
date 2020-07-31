@@ -1,0 +1,18 @@
+#Short Dictionary Sample
+#This dictionary has 5 words in it
+#Firstly, it will prompt user to input the word whose meaning user wants to know
+#Then it will fetch a meaning of that word for the user.
+
+
+d1 = {"MUTABLE": "anything that can be changed",
+      "IMMUTABLE": "That can\'t be changed",
+      "FRIVOLOUS": "anything that is not so important",
+      "SWOON": "an occurance of fainting",
+      "ANTICIPATE": "expect or predict"}
+
+print(("\n*** Welcome to the DICTIONARY ***\n\n1. mutable \n2. immutable \n3. frivolous \n4. swoon \n5. anticipate\n"))
+
+i = input("Enter the word from the above list whose meaning you want to know: ")
+j = i.upper()
+
+print(j, "means", "\"", d1[j],"\"")
